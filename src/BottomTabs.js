@@ -1,9 +1,10 @@
 import React from 'react';
 import {Image,Text} from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-//import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Stats from './Stats'
-//import { color } from 'react-native-reanimated';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+import Stats from './Continents'
+
 const Tab = createMaterialBottomTabNavigator();
 
 

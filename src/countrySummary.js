@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import { StyleSheet,ScrollView,View,  ActivityIndicator,Image } from 'react-native';
 import { Text } from 'react-native-elements';
-import Tab from './Tabs'
+//import Tab from './BottomTabs'
 
 const styles = StyleSheet.create({
   sectionContainer:{
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   
 });
 
-class Screen2 extends React.Component{
+class ByCountry extends React.Component{
     constructor(props){
         super(props)
         this.state = {
@@ -99,6 +99,7 @@ componentDidMount() {
         style={{marginTop:70, alignItems: 'center', justifyContent: 'center'}}>
         <Text h4 style={{color: 'gray'}}>{this.state.country}</Text>
        </View>
+       <View style={{marginLeft: 110,height: 1, width: '40%', backgroundColor: 'red'}}/>
 
        <View style={{marginTop: 30}}>
        <View style={styles.sectionContainer}>
@@ -155,4 +156,4 @@ componentDidMount() {
   }
  
 
-  export default Screen2;
+  export default ByCountry;

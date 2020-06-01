@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, ActivityIndicator,ScrollView } from 'react-native';
 import { Text } from 'react-native-elements';
-import axios from 'axios';
+
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
@@ -94,7 +94,7 @@ class Worldwide extends Component {
 
         <View style={{ marginTop: 80, alignItems: 'center'}}>
         
-        <Text h4 style={{color: 'gray'}}>WorldWide Corona Cases </Text>
+        <Text h4 style={{color: 'gray'}}>Global COVID19 Summary </Text>
         </View>
         <View style={{marginLeft: 40,height: 1, width: '80%', backgroundColor: 'red'}}/>
         
